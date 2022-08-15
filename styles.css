@@ -6,7 +6,7 @@
 
 main {
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 1.1rem 14rem;
 }
 
 .nav-bar {
@@ -32,7 +32,11 @@ main {
 
 .sc1 {
   text-align: center;
-  margin-top: 5rem;
+  margin: 13rem 7.5rem;
+}
+
+.hi {
+  margin: 10rem 5rem 1rem;
 }
 
 .sc2 {
@@ -42,6 +46,9 @@ main {
   margin-bottom: 2rem;
 }
 
+.intro {
+  margin: 0 2rem 17.8rem;
+}
 .project {
   margin: 4rem 3rem;
   text-align: center;
