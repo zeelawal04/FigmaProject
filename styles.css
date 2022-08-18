@@ -6,7 +6,7 @@
 
 main {
   width: 100%;
-  padding: 1.1rem 14rem;
+  padding: 1.1rem 13rem;
 }
 
 .nav-bar {
@@ -32,26 +32,57 @@ main {
 
 .sc1 {
   text-align: center;
-  margin: 13rem 7.5rem;
+  margin: 13rem 0;
 }
 
 .hi {
-  margin: 10rem 5rem 1rem;
+  margin: 5rem 5rem 1rem;
 }
 
 .sc2 {
-  display: grid;
-  grid-template-columns: 29% 1fr;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  display: flex;
+  margin-bottom: 3rem;
 }
 
 .intro {
-  margin: 0 2rem 17.8rem;
+  margin: 0 2rem;
 }
+
+.about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.tec {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .project {
-  margin: 4rem 3rem;
+  margin: 10rem 3rem 4rem;
   text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.T {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .sc3 {
@@ -62,6 +93,25 @@ main {
 
 .color {
   color: rgba(0, 0, 0, 0.3);
+  font-family: Condensed;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Mongo {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.gypsy {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 1rem;
 }
 
 .sc4 {
@@ -98,7 +148,7 @@ main {
 .phone {
   position: absolute;
   bottom: 1rem;
-  right: 28rem;
+  right: 20rem;
 }
 
 .visit {
@@ -131,4 +181,22 @@ footer {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
+  main {
+    padding: 1rem 4rem;
+  }
+  .sc2 {
+    flex-direction: column;
+  }
+  .hi {
+    margin: 2rem 2rem;
+  }
+  .sc1 {
+    margin: 5rem 0;
+  }
 }
