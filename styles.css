@@ -78,7 +78,7 @@ main {
   line-height: 24px;
 }
 
-.T {
+.word1 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -124,31 +124,22 @@ main {
   justify-content: center;
   padding: 3rem 3rem 2rem 3rem;
   align-items: center;
-  position: relative;
   margin-bottom: 8rem;
+  position: relative;
 }
-.gadget1 {
+.second-gg {
   background-color: #fbf6cc;
-  display: flex;
-  justify-content: center;
-  padding: 3rem 3rem 2rem 3rem;
-  align-items: center;
-  position: relative;
-  margin-bottom: 8rem;
 }
-.gadget2 {
+.third-gg {
   background-color: #bdf5d4;
-  display: flex;
-  justify-content: center;
-  padding: 3rem 3rem 2rem 3rem;
-  align-items: center;
+}
+.mac-phone {
   position: relative;
 }
-
 .phone {
   position: absolute;
-  bottom: 1rem;
-  right: 20rem;
+  bottom: 0;
+  right: -1rem;
 }
 
 .visit {
@@ -193,10 +184,47 @@ footer {
   .sc2 {
     flex-direction: column;
   }
+  .sc2 img {
+    margin-bottom: 1rem;
+    width: 25rem;
+  }
   .hi {
     margin: 2rem 2rem;
   }
   .sc1 {
     margin: 5rem 0;
+  }
+  .sc3 {
+    gap: 2.5rem;
+  }
+
+  .visit {
+    font-size: 0.5rem;
+  }
+  .visit img {
+    width: 0.5rem;
+  }
+  .mac-book {
+    width: 8rem;
+  }
+  .phone {
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 1rem 4rem;
+  }
+
+  .project {
+    margin-top: 5rem;
+  }
+  .mongo {
+    margin: 2rem;
   }
 }
